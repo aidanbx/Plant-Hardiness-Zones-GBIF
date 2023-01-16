@@ -1,5 +1,7 @@
 # Adding USDA Hardiness Zones to GBIF Occurence Data
 
+#### [View in Gitub pages](https://abarbieu.github.io/Plant-Hardiness-Zones-GBIF/)
+
 This repository contains code for querying GBIF occurrence data for the United States and plotting it on a map of the US, with USDA Hardiness Zones represented as color.
 
 Hardiness zones were gathered from the [Open Plant Hardiness Zones Repository](https://github.com/kgjenkins/ophz).
@@ -9,7 +11,7 @@ First, you will need to run the script to fetch the data from GBIF, then it will
 
 Here is an example of the final output:
 
-[Open map.html](map.html)
+[Open map.html](https://abarbieu.github.io/Plant-Hardiness-Zones-GBIF/map.html)
 
 Preview:
 
