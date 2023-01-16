@@ -8,13 +8,12 @@ Hardiness zones were gathered from the [Open Plant Hardiness Zones Repository](h
 First, you will need to run the script to fetch the data from GBIF, then it will query the data against a GeoJSON file to match the occurrences with their respective temperature. Finally, it will plot the data on a map of the US using folium.
 
 Here is an example of the final output:
-<iframe src="map.html" width="100%" height="500"></iframe>
 
-To run the code, simply execute the script in your preferred environment and the output will be the map.html file that you can open in your browser.
+[Open map.html](map.html)
 
-In case you would like to change the parameters or the GeoJSON file, make sure to edit the corresponding sections of the code.
+Preview:
 
-Please note that the rate limit of the API should be considered, so you might want to use the pygbif library utility function gbif_key() to set your own key.
+![](Example_Map.png)
 
 ## Usage Instructions
 ---
@@ -30,4 +29,4 @@ Please note that the rate limit of the API should be considered, so you might wa
 
 2. Clone the [Open Plant Hardiness Zones Repository](https://github.com/kgjenkins/ophz) into a folder named ophz
 
-3. Enter the "# Plant-Hardiness-Zones-GBIF
+3. Enter the Jupyter Notebook and edit the third cell with your query information. Info available [via pygbif](https://pygbif.readthedocs.io/en/latest/modules/occurrence.html) (pdf found [here](https://buildmedia.readthedocs.org/media/pdf/pygbif/stable/pygbif.pdf)) and via the gbif docs [here](https://www.gbif.org/developer/occurrence)
